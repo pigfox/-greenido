@@ -1,7 +1,7 @@
 #!/bin/bash
 # This is a demo script that runs the test and curls commands, run this after installation.
 
-echo "Running test..."
+echo "Running tests..."
 #go test ./...
 go test -v -bench . -benchmem -cover -race -parallel 10000 .
 
